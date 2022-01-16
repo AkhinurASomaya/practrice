@@ -80,11 +80,15 @@ padding-left: 4%;
     text-align: center;
 }
 .bonus{
-    width: 30%;
-    padding-left: 5%;
+    width:40%;
 }
 .lines{
     width: 30%;
+}
+.extra{
+    text-decoration: none;
+    color: black;
+
 }
 .footer{
     text-align:
@@ -96,6 +100,7 @@ padding-left: 4%;
    #icons{
 color: rgb(247, 247, 247);
    }
+   /*mobile*/
 @media only screen and
 (max-width: 688px) {
  header{
@@ -167,29 +172,17 @@ center;
     
  
  }
- .thumbnail{
- 
- margin-bottom:
-50px;
- }
- .thumbnail>img{
- width: 100%;
- }
  .contact{
  
     width: 640px;
  margin: 0;
  display: grid;
  grid-template-columns: repeat(1,
-1fr);
-    
-    }
- .bonus>img{
-    width: 250px;
+1fr);}
 
- }
  .footer{
     width: 100%;
+    height: 70%;
     }
  
 }
