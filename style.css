@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Poppins&display=swap');
+.navi{
+font-size: 20px;
+text-decoration: none;
+color: black;
+padding-left: 4%;
+}
+.partone{
+    display:flex;
+    
+}
+.part-width{
+    width:50%;
+    padding-left: 10%;
+}
+.part-width>img:hover{
+    width: 60%;
+    padding-top:10%;
+    transform: rotate(180deg);
+    /*transition: 3s ease-in;*/
+    transition: width 
+    10s linear, height 8s
+    linear 2s, transform 
+    3s;
+
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( rgb(247, 130, 227),rgb(131, 221, 236));
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: absolute;
+}
+.fas{
+    color: black;
+}
+#first{
+    padding-top: 10%;
+    font-size: 30px;
+}
+.header2{
+    text-align: center;
+    padding-top: 5%;
+    color: gray;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,
+   1fr);
+    grid-column-gap:
+   24px;
+    grid-row-gap:
+   24px;
+    margin-bottom:
+   24px;
+   }
+   .available{
+    margin-bottom:
+    50px;
+    
+   }
+   
+#p-color{
+    color: grey;
+}
+.icon{
+    text-decoration: none;
+    text-align: end;
+}
+.contact{
+    display: flex;
+    margin-top: 50px;
+   }
+   
+.Bonuspart{
+    text-align: center;
+}
+.bonus{
+    width: 30%;
+    padding-left: 5%;
+}
+.lines{
+    width: 30%;
+}
+.footer{
+    text-align:
+   center;
+    background-color:
+   rgba(10, 6, 32, 0.986);
+   color: rgb(220, 220, 235);
+   }
+   #icons{
+color: rgb(247, 247, 247);
+   }
+@media only screen and
+(max-width: 688px) {
+ header{
+ width: 320px;
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items:center;
+ }
+ .part-width>img{
+ width: 100px;
+ }
+
+ .items{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items:
+center;
+ 
+ }
+ .thumbnail{
+ 
+ margin-bottom:
+50px;
+ }
+ .thumbnail>img{
+ width: 100%;
+ }
+ .contact{
+ 
+    text-align:
+   center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:
+   center;
+    
+    }
+ .bonus>img{
+    width: 250px;
+
+ }
+ .footer{
+    width: 100%;
+    }
+ 
+}
+@media screen and
+(max-width: 1025px) {
+ header{
+ width: 640px;
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items:center;
+ }
+ .part-width>img{
+ width: 400px;
+ }
+
+ .items{
+    grid-template-columns: repeat(2,
+    1fr);
+     width: 640px;
+    
+ 
+ }
+ .thumbnail{
+ 
+ margin-bottom:
+50px;
+ }
+ .thumbnail>img{
+ width: 100%;
+ }
+ .contact{
+ 
+    width: 640px;
+ margin: 0;
+ display: grid;
+ grid-template-columns: repeat(1,
+1fr);
+    
+    }
+ .bonus>img{
+    width: 250px;
+
+ }
+ .footer{
+    width: 100%;
+    }
+ 
+}
