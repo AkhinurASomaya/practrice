@@ -87,7 +87,7 @@ padding-left: 4%;
 }
 .extra{
     text-decoration: none;
-    color: black;
+    color: gray;
 
 }
 .footer{
@@ -182,7 +182,6 @@ center;
 
  .footer{
     width: 100%;
-    height: 70%;
     }
  
 }
